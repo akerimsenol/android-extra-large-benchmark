@@ -67,4 +67,3 @@ additional processing of the heap to figure out only the strongly reachable obje
 
 All this does is to add `-XX:SoftRefLRUPolicyMSPerMB=0` to Gradle daemon's JVM args. The flag will 
 be removed if `apply_diff.sh` is run without `--remove-soft-references`
- 
